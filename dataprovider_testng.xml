@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Prime Number Generator Suite" parallel="methods" thread-count = "5">
+        <test verbose="2" preserve-order="true" name="Prime Number Validator Test" group-by-instances="true">
+            <classes>
+                <class name="com.math.experiment.test.TestPrimeNumberGenerator">
+                    <methods>
+                        <include name="testPrimerNumberGenerator"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>

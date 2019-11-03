@@ -1,0 +1,16 @@
+*Simple test-method Two. Thread id is: 18
+*Simple test-method Two. Thread id is: 20
+*Simple test-method Two. Thread id is: 16
+*Simple test-method Two. Thread id is: 17
+*Simple test-method Two. Thread id is: 19
+
+22 false
+	6 false
+	23 true
+	19 true
+false
+2 true
+true
+true
+false
+true

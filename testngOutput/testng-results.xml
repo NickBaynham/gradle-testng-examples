@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Prime Number Generator Suite" duration-ms="2033" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:41Z">
+    <groups>
+      <group name="examples">
+        <method signature="TestPrimeNumberGenerator.testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" class="com.math.experiment.test.TestPrimeNumberGenerator"/>
+      </group> <!-- examples -->
+    </groups>
+    <test name="Prime Number Validator Test" duration-ms="2033" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:41Z">
+      <class name="com.math.experiment.test.TestPrimeNumberGenerator">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="initialize" is-config="true" duration-ms="5" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="initialize" is-config="true" duration-ms="5" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="initialize" is-config="true" duration-ms="5" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="initialize" is-config="true" duration-ms="5" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="initialize" is-config="true" duration-ms="5" started-at="2019-11-03T21:44:39Z" finished-at="2019-11-03T21:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" duration-ms="2005" started-at="2019-11-03T21:44:39Z" data-provider="test" finished-at="2019-11-03T21:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberGenerator -->
+        <test-method status="PASS" signature="testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" duration-ms="2005" started-at="2019-11-03T21:44:39Z" data-provider="test" finished-at="2019-11-03T21:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberGenerator -->
+        <test-method status="PASS" signature="testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" duration-ms="2005" started-at="2019-11-03T21:44:39Z" data-provider="test" finished-at="2019-11-03T21:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberGenerator -->
+        <test-method status="PASS" signature="testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" duration-ms="2005" started-at="2019-11-03T21:44:39Z" data-provider="test" finished-at="2019-11-03T21:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberGenerator -->
+        <test-method status="PASS" signature="testPrimeNumberGenerator(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.math.experiment.test.TestPrimeNumberGenerator@1d8a257c]" name="testPrimeNumberGenerator" duration-ms="2005" started-at="2019-11-03T21:44:39Z" data-provider="test" finished-at="2019-11-03T21:44:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberGenerator -->
+      </class> <!-- com.math.experiment.test.TestPrimeNumberGenerator -->
+    </test> <!-- Prime Number Validator Test -->
+  </suite> <!-- Prime Number Generator Suite -->
+</testng-results>

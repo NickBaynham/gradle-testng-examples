@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Group Suite">
+        <test verbose="2" preserve-order="true" name="Group Test">
+            <groups>
+                <run>
+                    <include name="examples"></include>
+                    <include name="payroll"></include>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.payroll.test.TestEmployeeDetails"/>
+                <class name = "com.messaging.utils.TestMessenger"/>
+                <class name = "io.automation.test.TestExample" />
+            </classes>
+        </test>
+</suite>

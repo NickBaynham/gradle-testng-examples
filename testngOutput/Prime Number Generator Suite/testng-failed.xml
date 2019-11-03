@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Prime Number Generator Suite]">
+  <test thread-count="5" verbose="0" name="Prime Number Validator Test(failed)">
+    <groups>
+      <run>
+        <include name="payroll"/>
+        <include name="examples"/>
+        <include name="payroll"/>
+        <include name="examples"/>
+        <exclude name="smoke"/>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.math.experiment.test.TestPrimeNumberGenerator">
+        <methods>
+          <include name="testPrimeNumberGenerator" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.math.experiment.test.TestPrimeNumberGenerator -->
+    </classes>
+  </test> <!-- Prime Number Validator Test(failed) -->
+</suite> <!-- Failed suite [Prime Number Generator Suite] -->

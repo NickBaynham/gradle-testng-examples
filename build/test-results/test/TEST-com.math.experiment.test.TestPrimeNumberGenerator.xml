@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.math.experiment.test.TestPrimeNumberGenerator" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-03T21:44:39" hostname="2K2C5M2" time="2.005">
+  <properties/>
+  <testcase name="testPrimeNumberGenerator[0](22, false)" classname="com.math.experiment.test.TestPrimeNumberGenerator" time="2.005"/>
+  <testcase name="testPrimeNumberGenerator[0](19, true)" classname="com.math.experiment.test.TestPrimeNumberGenerator" time="2.005"/>
+  <testcase name="testPrimeNumberGenerator[0](2, true)" classname="com.math.experiment.test.TestPrimeNumberGenerator" time="2.005"/>
+  <testcase name="testPrimeNumberGenerator[0](6, false)" classname="com.math.experiment.test.TestPrimeNumberGenerator" time="2.005"/>
+  <testcase name="testPrimeNumberGenerator[0](23, true)" classname="com.math.experiment.test.TestPrimeNumberGenerator" time="2.005"/>
+  <system-out><![CDATA[Simple test-method Two. Thread id is: 18
+Simple test-method Two. Thread id is: 20
+Simple test-method Two. Thread id is: 16
+Simple test-method Two. Thread id is: 17
+Simple test-method Two. Thread id is: 19
+22 false
+6 false
+23 true
+19 true
+false
+2 true
+true
+true
+false
+true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
